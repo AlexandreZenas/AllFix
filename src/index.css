@@ -1,2 +1,16 @@
 @import "tailwindcss";
-
+html, body{
+    min-height: 100vh;
+}
+:root{
+    font-family: "Inter", sans-serif;
+    background-color: gray;
+}
+@theme{
+    --color-light-blue: #ADD8E6;
+    --color-blue: #1E3A8A; 
+    --color-light-gray: #E5E7EB; 
+    --color-gray: #7C7C7C; 
+    --color-white: #FFFFFF; 
+    --color-black: #0C0C0C; 
+}
