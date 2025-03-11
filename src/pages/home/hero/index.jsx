@@ -36,7 +36,7 @@ export function Hero() {
 
     return (
         <section 
-            className={`px-[2px] pt-24 pb-16 relative lg:bg-[url('${imagesDesktop[indice]}')] sm:bg-[url('${imagesTablet[indice]}')] bg-[url('${imagesMobile[indice]}')] bg-cover animate-bg-zoom  bg-no-repeat bg-center `}
+            className={`px-[2px] pt-24  pb-32 relative lg:bg-[url('${imagesDesktop[indice]}')] sm:bg-[url('${imagesTablet[indice]}')] bg-[url('${imagesMobile[indice]}')] bg-cover animate-bg-zoom  bg-no-repeat bg-center `}
             style={{backgroundImage: `url(${backgroundImage[indice]})`, transition: "background-image 500ms ease-out", }}
             >
             
