@@ -7,11 +7,11 @@ export function MainButton({textButton, imgPath,imgAlt, styleButton, styleBTN, t
       }
     return(
             <a 
-                className={twMerge("hover:cursor-pointer py-4 px-6 hover:text-gray transition-all text-white  bg-blue ", styleButton)}
+                className={twMerge("hover:bg-transparent cursor-pointer py-4 px-6 border-2 border-blue transition-all text-white  bg-blue ", styleButton)}
                 target={target} 
                 onClick={clickAds}
             >
-                <button className={twMerge("hover:cursor-pointer flex items-center gap-2 justify-center -tracking-tighter", styleBTN)}>
+                <button className={twMerge("flex items-center cursor-pointer gap-2 justify-center -tracking-tighter", styleBTN)}>
                     {textButton}
                     <img src={'icons/arrow.svg'} alt={'arrow'} />
                 </button>

@@ -66,8 +66,8 @@ export function Navbar(){
                                 <a className="text-lg text-white font-medium" href="#Portfolio" onClick={toggleMenu}>Serviços</a>
                                 <a className="text-lg text-white font-medium pb-4" href="#Contact" onClick={toggleMenu}>Contato</a>
                                 <MainButton 
-                                        styleButton={'bg-light-blue'}
-                                        styleBTN={'text-blue'}
+                                        styleButton={'bg-light-blue hover:bg-transparent border-2 border-blue  '}
+                                        styleBTN={'text-blue hover:text-white'}
                                         target={'_blank'}
                                         textButton={'Fazer um orçamento'}
                                         linkButton={'https://wa.me/5521995983041'}
