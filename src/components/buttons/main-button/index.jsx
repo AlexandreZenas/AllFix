@@ -7,7 +7,7 @@ export function MainButton({textButton, imgPath,imgAlt, styleButton, styleBTN, t
       }
     return(
             <a 
-                className={twMerge("hover:bg-transparent cursor-pointer py-4 px-6 border-2 border-blue transition-all text-white  bg-blue ", styleButton)}
+                className={twMerge("hover:bg-light-blue cursor-pointer py-4 px-6 transition-all text-white  bg-blue ", styleButton)}
                 target={target} 
                 onClick={clickAds}
             >
