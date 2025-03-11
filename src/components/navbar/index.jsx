@@ -37,7 +37,7 @@ export function Navbar(){
     }, []);  
 
     return(
-        <nav id="navbar" className={`w-full  transition-all duration-500  z-50  ${boolean ? 'fixed translate-y-0' : 'fixed -translate-y-96' } `} ref={navbarRef}>
+        <nav id="navbar" className={`w-full  transition-all duration-500  z-[999]  ${boolean ? 'fixed translate-y-0' : 'fixed -translate-y-96' } `} ref={navbarRef}>
             <div className="max-w-[1280px] relative mx-auto flex py-4  px-[2%] w-full justify-between  items-center ">
                 <a href="/">
                     <img src="icons/Logo.svg" alt="Logo" />
