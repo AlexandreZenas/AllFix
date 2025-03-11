@@ -39,7 +39,7 @@ export function Navbar(){
     return(
         <nav id="navbar" className={`w-full  transition-all duration-500  z-50  ${boolean ? 'fixed translate-y-0' : 'fixed -translate-y-96' } `} ref={navbarRef}>
             <div className="max-w-[1280px] relative mx-auto flex py-4  px-[2%] w-full justify-between  items-center ">
-                <a href="#Hero">
+                <a href="/">
                     <img src="icons/Logo.svg" alt="Logo" />
                 </a>
                 <div className="lg:flex  hidden gap-8 items-center">
@@ -48,7 +48,7 @@ export function Navbar(){
                     <a className=" text-white font-medium" href="#Contact">Contato</a>
                     <MainButton 
                         target={'_blank'}
-                        textButton={'Fazer um orçamento'}
+                        textButton={'Fazer um orçamento !!'}
                         linkButton={'https://wa.me/5521995983041'}
                     />
                 </div>
@@ -61,17 +61,18 @@ export function Navbar(){
                                 <img src="icons/navbar/close.svg" alt="close" onClick={toggleMenu}/>
                             </div>
                             <div className="w-full h-[2px] bg-white"></div>
-                            <div className="flex flex-col w-full h-auto gap-6  py-8">
+                            <div className="flex flex-col w-full h-auto gap-6 items-start py-8">
                                 <a className="text-lg text-white font-medium" href="#About" onClick={toggleMenu}>Sobre</a>
                                 <a className="text-lg text-white font-medium" href="#Portfolio" onClick={toggleMenu}>Serviços</a>
                                 <a className="text-lg text-white font-medium pb-4" href="#Contact" onClick={toggleMenu}>Contato</a>
-                                <div onClick={toggleMenu}>
-                                    <MainButton                                         
-                                        styleButton={'py-4 px-6 rounded-md text-center bg-light-blue text-blue'}
+                                <MainButton 
+                                        styleButton={'bg-light-blue'}
+                                        styleBTN={'text-blue'}
+                                        target={'_blank'}
                                         textButton={'Fazer um orçamento'}
                                         linkButton={'https://wa.me/5521995983041'}
-                                    />
-                                </div>
+                                />
+
                             </div>
                         </div>
                         <div className='absolute h-full w-1/6 right-0' onClick={toggleMenu}>
