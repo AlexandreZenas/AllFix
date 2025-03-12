@@ -8,7 +8,7 @@ export function Faq(){
             <div className="max-w-[1280px] flex flex-col  gap-16 mx-auto   px-[4%]">   
                 <div className="flex items-center flex-col gap-4">
                     <h1 className="font-bold text-5xl text-blue">FAQ</h1>
-                    <span>Perguntas Frequentes | AllFix Reformas</span>
+                    <span>Perguntas Frequentes | ALL FIX Reformas</span>
                 </div>
                 <div className="flex lg:flex-row flex-col gap-8 flex-start items-start">
                 <WrapperAccordion>

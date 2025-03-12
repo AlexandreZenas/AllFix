@@ -42,8 +42,8 @@ export function Hero() {
             
             <div className="bg-[rgba(0,0,0,0.5)] w-full h-full z-10 absolute top-0 left-0 "></div>
             <div className="z-50 relative max-w-[1280px] mx-auto px-[4%] flex md:justify-center justify-start md:items-start items-start gap-8 flex-col py-8 mt-24  ">
-                <h1 className="text-white md:text-start  md:font-bold font-semibold  md:text-5xl text-4xl lg:max-w-[680px] tracking-[-2px]">Seu piso está opaco, sujo ou manchado ? Nós resolvemos!!</h1>
-                <p className="text-white md:text-start lg:max-w-[640px] font-normal leading-snug">Somos <strong className="font-bold">especializados</strong> em: Limpeza e polimento para recuperar a aparência original do seu piso, impermeabilização, mármores, granitos, pedras são tomes, ardósias, marmorite, granitina, porcelanato e outros tipos de materiais.</p>
+                <h1 className="text-white md:text-start  md:font-bold font-semibold  md:text-5xl text-4xl lg:max-w-[680px] tracking-[-2px]">Seu piso está opaco, sujo ou manchado? Nós resolvemos!</h1>
+                <p className="text-white md:text-start lg:max-w-[640px] font-normal leading-snug">Somos <strong className="font-bold">especializados</strong> em limpeza e polimento para recuperar a aparência original do seu piso, impermeabilização, mármores, granitos, pedras são tomes, ardósias, marmorite, granitina, porcelanato e outros tipos de materiais.</p>
                 <MainButton textButton="Fazer um orçamento"  linkButton="https://www.google.com" target="_blank"></MainButton>
             </div>
         </section>
