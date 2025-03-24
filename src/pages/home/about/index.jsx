@@ -10,7 +10,7 @@ export function About() {
                     <h1 className="md:text-4xl sm:text-3xl text-2xl font-semibold">Se você está procurando uma empresa confiável para tratar o seu piso, encontrou.</h1>
                     <h3 className="">Especializada em limpeza e restauração de pisos no Rio de Janeiro</h3>
                     <p className="text-sm text-gray">ALL FIX foi idealizada e criada para atender as necessidades e especificidades dos diversos tipos de superfícies, unindo tecnologia de ponta, produtos de primeira linha e mão de obra especializada. Sempre com o objetivo de prestar um serviço altamente qualificado, prezando pela conservação do patrimônio dos nossos clientes.</p>
-                    <h3 className="pt-4">Especializada em limpeza e restauração de pisos no Rio de Janeiro</h3>
+                    <h3 className="pt-4">Por que escolher a ALL FIX?</h3>
                     <div className="flex flex-col gap-2 pb-4 px-4 text-gray text-sm">
                         <span className="">• Especialista em tratamento de pisos</span>
                         <span className="">• Tratamento diferenciado para cada tipo de superfície</span>
