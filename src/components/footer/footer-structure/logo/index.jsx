@@ -4,9 +4,9 @@ import { twMerge } from "tailwind-merge";
 export function LogoFooter({image, linkLogo, LogoStile}){
     return(
         <div className={twMerge("lg:w-1/5 w-full flex items-center justify-center text-center", LogoStile)}>
-            <Link to={'/'}>
+            <a href={linkLogo}>
                 <img className="scale-150" src={image} alt="" />
-            </Link>
+            </a>
 
         </div>
     )

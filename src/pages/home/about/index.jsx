@@ -2,7 +2,7 @@ import { MainButton } from "../../../components/buttons/main-button";
 
 export function About() {
     return (
-        <section className="py-24">
+        <section id="About" className="py-24">
             <div className="max-w-[1280px] mx-auto px-[4%] flex flex-col lg:flex-row gap-8 items-center">
                 <div className="lg:w-1/2"> <img src="images/about/image-1.png" alt="" /></div>
                 <div className="lg:w-1/2 flex flex-col justify-center items-start gap-4">

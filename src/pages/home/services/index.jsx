@@ -3,7 +3,7 @@ import { ServicesCard } from "./services-card";
 
 export function Services() {
     return (
-        <section className="py-24">
+        <section id="Services" className="py-24">
             <div className="max-w-[1280px] mx-auto px-[4%] flex flex-col-reverse gap-8">
                 <div className="flex flex-col items-center gap-8">
                     <h1 className="font-bold text-blue lg:text-5xl text-4xl text-center">Oferecemos um serviço completo!</h1>

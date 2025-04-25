@@ -4,7 +4,7 @@ import { Accordion } from "./wrapper-accordion/accordion";
 
 export function Faq(){
     return(
-        <section className="py-24">
+        <section id="Faq" className="py-24">
             <div className="max-w-[1280px] flex flex-col  gap-16 mx-auto   px-[4%]">   
                 <div className="flex items-center flex-col gap-4">
                     <h1 className="font-bold text-5xl text-blue">FAQ</h1>

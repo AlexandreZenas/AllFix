@@ -9,9 +9,9 @@ export function Footer(){
                 <FooterStructure.Links>
                     <FooterStructure.Link link={'#About'} textLink={'Sobre nós'} />
                     <FooterStructure.Link link={'#Services'} textLink={'Serviços'} />
-                    <FooterStructure.Link link={'/FAQ'} textLink={'FAQ'} />
+                    <FooterStructure.Link link={'#Faq'} textLink={'FAQ'} />
                 </FooterStructure.Links>
-                <FooterStructure.Logo image={'icons/Logo-light.svg'} LogoStile={''} linkLogo={''}/>
+                <FooterStructure.Logo image={'icons/Logo-light.svg'} LogoStile={''} linkLogo={'#Hero'}/>
                 <FooterStructure.Medias>
                     <FooterStructure.Media image={'icons/footer/whatsapp.svg'} mediaLink={'https://wa.me/5521995983041'} />
                     <FooterStructure.Media image={'icons/footer/email.svg'} mediaLink={'mailto:alexandrezenas11@gmail.com'} />
