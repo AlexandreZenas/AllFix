@@ -43,7 +43,7 @@ export function Services() {
                     </div>
                     <div className="w-full flex flex-col items-center gap-8">
                         <p className="text-center text-lg font-medium">Polimento e limpeza para recuperar a aparência original do seu piso</p>
-                        <MainButton styleButton={'hover:bg-light-blue border-none'} textButton="Fazer um orçamento"  linkButton="https://www.google.com" target="_blank"></MainButton>
+                        <MainButton styleButton={'hover:bg-light-blue border-none'} textButton="Fazer um orçamento"  linkButton="https://wa.me/5521995983041" target="_blank"></MainButton>
                     </div>
                 </div>
             </div>
