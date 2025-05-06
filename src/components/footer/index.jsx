@@ -13,8 +13,8 @@ export function Footer(){
                 </FooterStructure.Links>
                 <FooterStructure.Logo image={'icons/Logo-light.svg'} LogoStile={''} linkLogo={'#Hero'}/>
                 <FooterStructure.Medias>
-                    <FooterStructure.Media image={'icons/footer/whatsapp.svg'} mediaLink={'https://wa.me/5521995983041'} />
-                    <FooterStructure.Media image={'icons/footer/email.svg'} mediaLink={'mailto:alexandrezenas11@gmail.com'} />
+                    <FooterStructure.Media image={'icons/footer/whatsapp.svg'} mediaLink={'https://wa.me/5521997155021'} />
+                    <FooterStructure.Media image={'icons/footer/email.svg'} mediaLink={'mailto:allfixreformas@gmail.com'} />
                 </FooterStructure.Medias>
             </div>
             <div className="bg-white w-full mx-auto h-[1px]"></div>

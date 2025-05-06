@@ -43,7 +43,7 @@ export function Faq(){
                 <div className="flex flex-col justify-center items-center gap-4 py-16">
                     <h1 className="font-bold text-center md:text-5xl text-3xl  text-blue">Vamos construir o seu projeto juntos!</h1>
                     <span className="text-center">Entre em contato conosco para iniciar essa parceria hoje !!</span>
-                    <MainButton linkButton={'https://wa.me/5521995983041'} textButton={"Solicitar Orçamento"} />
+                    <MainButton linkButton={'https://wa.me/5521997155021'} textButton={"Solicitar Orçamento"} />
                 </div>
             </div>
         </section>

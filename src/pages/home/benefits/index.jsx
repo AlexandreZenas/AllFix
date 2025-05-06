@@ -16,7 +16,7 @@ export function Benefits() {
                     <MainButton       
                         styleButton={'bg-light-blue border-2 border-light-blue hover:text-white text-blue text-start items-start justify-start'}              
                         textButton="Fazer um orçamento" 
-                        linkButton="https://wa.me/5521995983041" 
+                        linkButton="https://wa.me/5521997155021" 
                         target="_blank"
                     />
                 </div>
