@@ -3,6 +3,8 @@ section.bg-hero{
     animation: bgHero cubic-bezier(.25,1.35,1,1.06) infinite both;
     animation-delay: 5s;
     animation-duration: 21s;
+    background-position: center;
+    background-size: cover;
 }
 
 @keyframes bgHero {
