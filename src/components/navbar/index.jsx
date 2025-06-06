@@ -43,9 +43,9 @@ export function Navbar(){
                     <img className="w-32" src="icons/Logo.svg" alt="Logo" />
                 </a>
                 <div className="lg:flex  hidden gap-8 items-center">
-                    <a className=" text-white font-medium" href="#About">Sobre</a>
-                    <a className=" text-white font-medium" href="#Services">Serviços</a>
-                    <a className=" text-white font-medium  " href="#Faq">FAQ</a>
+                    <a className=" text-white text-shadow  hover:text-light-blue font-medium" href="#About">Sobre</a>
+                    <a className=" text-white text-shadow hover:text-light-blue font-medium" href="#Services">Serviços</a>
+                    <a className=" text-white text-shadow hover:text-light-blue font-medium  " href="#Faq">FAQ</a>
                     <MainButton 
                         target={'_blank'}
                         textButton={'Fazer um orçamento'}
