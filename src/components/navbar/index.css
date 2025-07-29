@@ -1,0 +1,7 @@
+.no-scroll {
+    overflow: hidden; /* Remove o scroll vertical e horizontal */
+    height: 100%; /* Garante que o conteúdo não exceda a altura da tela */
+}
+.text-shadow {
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.8); /* Adiciona uma sombra ao texto */
+}
