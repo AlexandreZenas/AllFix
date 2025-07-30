@@ -16,6 +16,8 @@ html, body{
 @theme{
     --color-light-blue: #ADD8E6;
     --color-blue: #1E3A8A; 
+    --color-dark-green: #19543A; 
+    --color-green: #40934D; 
     --color-light-gray: #E5E7EB; 
     --color-gray: #7C7C7C; 
     --color-white: #FFFFFF; 

@@ -3,20 +3,13 @@ import { MainButton } from "../../../components/buttons/main-button";
 import "./index.css";
 
 export function Hero() {
-    const imagesMobile = ["images/hero/bg-image-1-mobile.jpg", "images/hero/bg-image-2-mobile.jpg", "images/hero/bg-image-3-mobile.jpg"];
-    const imagesTablet = ["images/hero/bg-image-1-tablet.jpg", "images/hero/bg-image-2-tablet.jpg", "images/hero/bg-image-3-tablet.jpg"];
-    const imagesDesktop  = ["images/hero/bg-image-1.jpg", "images/hero/bg-image-2.jpg", "images/hero/bg-image-3.jpg"];
-    const [indice, setIndice] = useState(0);
-    const [backgroundImage, setBackgroundImage] = useState(imagesDesktop[indice]);
-
-
     return (
-        <section id="Hero" className={` bg-hero px-[2px] pt-24 pb-32 relative`}>            
+        <section id="Hero" className={`bg-[url('images/hero/bg-image.png')] bg-no-repeat bg-cover px-[2px] pt-24 pb-32 relative`}>            
             <div className="bg-[rgba(0,0,0,0.5)] w-full h-full z-10 absolute top-0 left-0 "></div>
-            <div className="z-50 relative max-w-[1280px] mx-auto px-[4%] flex md:justify-center justify-start md:items-start items-start gap-8 flex-col py-8 mt-24  ">
-                <h1 className="text-white md:text-start  md:font-bold font-semibold  md:text-5xl text-4xl lg:max-w-[680px] tracking-[-2px]">Seu piso está opaco, sujo ou manchado? Nós resolvemos!</h1>
-                <p className="text-white md:text-start lg:max-w-[640px] font-normal leading-snug">Somos <strong className="font-bold">especializados</strong> em limpeza e polimento para recuperar a aparência original do seu piso, impermeabilização, mármores, granitos, pedras são tomes, ardósias, marmorite, granitina, porcelanato e outros tipos de materiais.</p>
-                <MainButton textButton="Fazer um orçamento"  linkButton="https://wa.me/5521997155021" target="_blank"></MainButton>
+            <div className="z-50 relative max-w-[1280px] mx-auto px-[4%] flex md:justify-center justify-start md:items-center items-center gap-8 flex-col py-8 mt-24  ">
+                <h1 className="text-green  text-center items-center justify-center md:font-bold font-semibold  md:text-5xl text-4xl lg:max-w-[680px] tracking-[-2px]">Jardinagem e paisagismo profissional</h1>
+                <p className="text-white text-center items-center justify-center lg:max-w-[640px] font-normal leading-snug">O cuidado que seu jardim merece .</p>
+                <MainButton textButton="Fazer um orçamento"  linkButton="https://wa.me/5521997155021"  target="_blank"></MainButton>
             </div>
         </section>
     );
