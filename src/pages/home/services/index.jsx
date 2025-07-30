@@ -4,46 +4,44 @@ import { ServicesCard } from "./services-card";
 export function Services() {
     return (
         <section id="Services" className="py-24">
-            <div className="max-w-[1280px] mx-auto px-[4%] flex flex-col-reverse gap-8">
+            <div className="2xl:max-w-[1440px] xl:max-w-[1280px] mx-auto px-4 flex flex-col-reverse gap-8">
                 <div className="flex flex-col items-center gap-8">
-                    <h1 className="font-bold text-blue lg:text-5xl text-4xl text-center">Oferecemos um serviço completo!</h1>
-                    <div className="w-32 h-[2px] bg-blue"></div>
-                    <span className="text-xl ">Para cada tipo de superficie</span>  
+                    <h1 className="font-bold text-dark-green lg:text-5xl text-4xl text-center max-w-[440px]">Soluções para todo tipo de jardim</h1>
                     <div className="w-full grid lg:grid-cols-3 sm:grid-cols-2 gap-8 gap-y-16 py-10">
                         <ServicesCard
-                            title="Polimento" 
-                            description="Restauramos o brilho do seu piso, eliminando riscos e opacidade com polimento profissional para um acabamento impecável e duradouro." 
-                            image="images/services/image-1.png" 
+                            title="Jardinagem e Paisagismo" 
+                            description="Planejamento e execução de áreas verdes que aliam estética, funcionalidade e bem-estar. " 
+                            image="images/services/jardinagem-e-paisagismo.png" 
                         />
                         <ServicesCard
-                            title="Revitalização" 
-                            description="Renovamos pisos desgastados, removendo sujeiras profundas e devolvendo sua aparência original sem necessidade de substituição." 
-                            image="images/services/image-2.png" 
+                            title="Projetos Personalizados" 
+                            description="Desenvolvemos projetos exclusivos, considerando o estilo do local, a arquitetura e as preferências do cliente. " 
+                            image="images/services/projetos-personalizados.png" 
                         />
                         <ServicesCard
-                            title="Remoção de manchas" 
-                            description="Eliminamos manchas difíceis de gordura, tinta, ferrugem e outros resíduos sem danificar seu piso." 
-                            image="images/services/image-3.png" 
+                            title="Implantação de Jardins" 
+                            description="Cuidamos de todo o processo de criação do seu jardim,  desde a preparação do solo até a escolha e plantio das espécies. " 
+                            image="images/services/implantação-de-jardim.png" 
                         />
                         <ServicesCard
-                            title="Impermeabilização" 
-                            description="Protegemos seu piso contra umidade e manchas com impermeabilização profissional, facilitando a manutenção e aumentando sua durabilidade." 
-                            image="images/services/image-4.png" 
+                            title="Manutenção Completa" 
+                            description="Oferecemos serviços periódicos ou pontuais de corte de grama, poda, limpeza, replantio, controle de pragas  para manter o jardim sempre agradável." 
+                            image="images/services/manutenção-de-jardim.png" 
                         />
                         <ServicesCard
-                            title="Remoção de Cera" 
-                            description="Removemos camadas antigas de cera acumulada, restaurando a beleza natural do piso e aplicando nova proteção se necessário." 
-                            image="images/services/image-5.png" 
+                            title="Adubos e substratos" 
+                            description="Trabalhamos com adubos orgânicos e minerais, além de substratos de alta qualidade, ideais para estimular o crescimento, a floração e o fortalecimento das plantas." 
+                            image="images/services/adubos.png" 
                         />
                         <ServicesCard
-                            title="Limpeza Pós-Obra" 
-                            description="Removemos resíduos de cimento, tinta e poeira, deixando seu ambiente pronto para uso com uma limpeza eficiente e detalhada." 
-                            image="images/services/image-6.png" 
+                            title="Aplicação de fungicidas para pragas de jardim" 
+                            description="Realizamos o diagnóstico e o tratamento de doenças e infestações. Usamos produtos eficazes para proteger seu jardim contra fungos, insetos e outras ameaças." 
+                            image="images/services/aplcação-de-fungicidas.png" 
                         />
                     </div>
                     <div className="w-full flex flex-col items-center gap-8">
                         <p className="text-center text-lg font-medium">Polimento e limpeza para recuperar a aparência original do seu piso</p>
-                        <MainButton styleButton={'hover:bg-light-blue border-none'} textButton="Fazer um orçamento"  linkButton="https://wa.me/5521997155021" target="_blank"></MainButton>
+                        <MainButton styleButton={'border-none'} textButton="Fazer um orçamento"  linkButton="https://wa.me/5521997155021" target="_blank"></MainButton>
                     </div>
                 </div>
             </div>

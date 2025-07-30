@@ -99,14 +99,23 @@ export function About() {
     ],
   };
   return (
-    <section id="OurSpace" className="py-24 ">
+    <section id="WhoWeServe" className="py-24 ">
       {/*  2xl:max-w-[1440px] xl:max-w-[1280px] flex flex-col w-full items-center gap-4 md:gap-2 pt-8 md:pt-16 pb-16 md:pb-32 px-4 relative  */}
-      <div className="2xl:max-w-[1440px] xl:max-w-[1280px] mx-auto px-4 flex gap-8 items-center justify-bottom flex-col xl:flex-row">
-        <div className="w-full xl:w-1/2  flex flex-col gap-8">
+      <div className="2xl:max-w-[1440px] xl:max-w-[1280px] mx-auto px-4 flex gap-8 items-start justify-center flex-col xl:flex-row">
+        <div className="w-full xl:w-3/5  flex flex-col gap-8">
           <h1 className="font-bold text-dark-green lg:text-5xl  text-4xl ">
             Quem nós atendemos ?
           </h1>
           <div className="flex flex-col gap-4 pb-8">
+            <div className="flex items-center gap-4 border-b-[1px] py-4 border-gray-300">
+              <img src="icons/about/house.svg" alt="" />
+              <div>
+                <h4 className="font-semibold text-black text-lg">Residências</h4>
+                <p className="text-sm font-normal">
+Criamos e mantemos ambientes verdes que impressionam clientes, colaboradores e visitantes. Jardins bem cuidados transmitem profissionalismo, acolhimento e fortalecem a imagem da sua marca.
+                </p>
+              </div>
+            </div>
             <div className="flex items-center gap-4 border-b-[1px] py-4 border-gray-300 ">
               <img src="icons/about/houses.svg" alt="" />
               <div>
@@ -125,15 +134,6 @@ Oferecemos soluções completas de jardinagem e paisagismo para áreas comuns, g
                 </p>
               </div>
             </div>
-            <div className="flex items-center gap-4 border-b-[1px] py-4 border-gray-300">
-              <img src="icons/about/house.svg" alt="" />
-              <div>
-                <h4 className="font-semibold text-black text-lg">Residências</h4>
-                <p className="text-sm font-normal">
-Criamos e mantemos ambientes verdes que impressionam clientes, colaboradores e visitantes. Jardins bem cuidados transmitem profissionalismo, acolhimento e fortalecem a imagem da sua marca.
-                </p>
-              </div>
-            </div>
             {/* <div className="flex items-center gap-4 py-4">
               <img src="icons/about/university.svg" alt="" />
               <div>
@@ -148,34 +148,27 @@ Criamos e mantemos ambientes verdes que impressionam clientes, colaboradores e v
             </div> */}
           </div>
         </div>
-        <div className="w-11/12 xl:w-1/2 flex flex-col items-center gap-2">
+        <div className="w-12/12 xl:w-2/5 flex flex-col items-center  gap-2">
           <Slider className="w-[95%] text-center " {...settings}>
             <div className="">
               <img
-                className="w-full h-full object-cover"
-                src={"images/services/image-1.png"}
-                alt="alo"
+                className="w-full h-full max-h-[600px] object-cover"
+                src={"images/about/residential.svg"}
+                alt="image of residential service"
               />
             </div>
             <div className="">
               <img
-                className="w-full h-full object-cover"
-                src={"images/services/image-2.png"}
-                alt="alo"
+                className="w-full h-full max-h-[600px] object-cover"
+                src={"images/about/cond.svg"}
+                alt="image of condominium service"
               />
             </div>
             <div className="">
               <img
-                className="w-full h-full object-cover"
-                src={"images/services/image-3.png"}
-                alt="alo"
-              />
-            </div>
-            <div className="">
-              <img
-                className="w-full h-full object-cover"
-                src={"images/services/image-4.png"}
-                alt="alo"
+                className="w-full h-full max-h-[600px] object-cover"
+                src={"images/about/enterprise.svg"}
+                alt="image of enterprise service"
               />
             </div>
           </Slider>

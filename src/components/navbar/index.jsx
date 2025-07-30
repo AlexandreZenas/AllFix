@@ -43,10 +43,11 @@ export function Navbar(){
                     <img className="w-32" src="icons/Logo.svg" alt="Logo" />
                 </a>
                 <div className="lg:flex  hidden gap-8 items-center">
-                    <a className=" text-white text-shadow  hover:text-green font-medium" href="#About">Sobre</a>
                     <a className=" text-white text-shadow hover:text-green font-medium" href="#Services">Serviços</a>
+                    <a className=" text-white text-shadow  hover:text-green font-medium" href="#WhoWeServe">Quem atendemos</a>
                     <a className=" text-white text-shadow hover:text-green font-medium  " href="#Faq">FAQ</a>
                     <MainButton 
+                        styleButton={'text-xs py-3'}
                         target={'_blank'}
                         textButton={'Fazer um orçamento'}
                         linkButton={'https://wa.me/5521997155021'}
@@ -55,7 +56,7 @@ export function Navbar(){
                 <div className="flex lg:hidden gap-4">
                     <img src="icons/navbar/menu.svg" alt="menu" onClick={toggleMenu}/>
                     <div className={`${menuOpen ? '-left-0  duration-[.75s] ' : '-left-[200vw] duration-[1s] delay-500'} fixed h-screen  w-[100vw] bg-[rgba(15,15,15,0.4)] top-0 `} >
-                        <div className={`${menuOpen ? ' -left-0  duration-[1s] delay-500' : ' -left-[200vw] duration-[1s] '} absolute h-full w-5/6 bg-blue items-center flex flex-col px-8 py-8 gap-8`}>
+                        <div className={`${menuOpen ? ' -left-0  duration-[1s] delay-500' : ' -left-[200vw] duration-[1s] '} absolute h-full w-5/6 bg-dark-green items-center flex flex-col px-8 py-8 gap-8`}>
                             <div className="flex justify-between w-full">
                                 <img className="w-1/3" src="icons/Logo-light.svg" alt="Logo" />
                                 <img src="icons/navbar/close.svg" alt="close" onClick={toggleMenu}/>
@@ -66,8 +67,8 @@ export function Navbar(){
                                 <a className="text-lg text-white font-medium" href="#Services" onClick={toggleMenu}>Serviços</a>
                                 <a className="text-lg text-white font-medium pb-4" href="#Faq" onClick={toggleMenu}>FAQ</a>
                                 <MainButton 
-                                        styleButton={'bg-light-blue hover:bg-transparent border-2 border-blue  '}
-                                        styleBTN={'text-blue hover:text-white'}
+                                        styleButton={'bg-green  '}
+                                        styleBTN={'text-white hover:text-white'}
                                         target={'_blank'}
                                         textButton={'Fazer um orçamento'}
                                         linkButton={'https://wa.me/5521997155021'}
