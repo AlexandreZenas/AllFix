@@ -110,18 +110,27 @@ export function About() {
             <div className="flex items-center gap-4 border-b-[1px] py-4 border-gray-300">
               <img src="icons/about/house.svg" alt="" />
               <div>
-                <h4 className="font-semibold text-black text-lg">Residências</h4>
+                <h4 className="font-semibold text-black text-lg">
+                  Residências
+                </h4>
                 <p className="text-sm font-normal">
-Criamos e mantemos ambientes verdes que impressionam clientes, colaboradores e visitantes. Jardins bem cuidados transmitem profissionalismo, acolhimento e fortalecem a imagem da sua marca.
+                  Atendemos casas térreas, sobrados, coberturas, sítios,
+                  fazendas e chácaras, oferecendo manutenção completa de
+                  jardinagem e paisagismo.
                 </p>
               </div>
             </div>
             <div className="flex items-center gap-4 border-b-[1px] py-4 border-gray-300 ">
               <img src="icons/about/houses.svg" alt="" />
               <div>
-                <h4 className="font-semibold text-black text-lg">Condomínios</h4>
+                <h4 className="font-semibold text-black text-lg">
+                  Condomínios
+                </h4>
                 <p className="text-sm font-normal">
-Transformamos seu quintal, jardim ou varanda em um refúgio verde e agradável. Seja para valorizar sua casa ou trazer mais bem-estar à rotina, cuidamos de cada detalhe com carinho e profissionalismo.
+                  Atendemos condomínios residenciais e comerciais, atuando em
+                  jardins de entrada, canteiros, áreas comuns, áreas de lazer,
+                  playgrounds e praças internas, realizando manutenção
+                  periódica e garantindo um ambiente agradável para os moradores.
                 </p>
               </div>
             </div>
@@ -130,7 +139,26 @@ Transformamos seu quintal, jardim ou varanda em um refúgio verde e agradável. 
               <div>
                 <h4 className="font-semibold text-black text-lg">Empresas</h4>
                 <p className="text-sm font-normal">
-Oferecemos soluções completas de jardinagem e paisagismo para áreas comuns, garantindo beleza, segurança e valorização dos espaços compartilhados. Manutenções periódicas e atendimento personalizado para síndicos e administradoras.
+                  Prestamos serviços de jardinagem e paisagismo para empresas,
+                  lojas, escritórios, galpões, restaurantes, cafés, hotéis,
+                  clínicas, escolas e centros comerciais. Cuidamos da
+                  ambientação verde de áreas externas e internas, focando na
+                  valorização da imagem comercial e de um ambiente acolhedor para clientes.
+                </p>
+              </div>
+            </div>
+            <div className="flex items-center gap-4 border-b-[1px] py-4 border-gray-300">
+              <img src="icons/about/enterprise.svg" alt="" />
+              <div>
+                <h4 className="font-semibold text-black text-lg">
+                  Espaços públicos e institucionais
+                </h4>
+                <p className="text-sm font-normal">
+                  Executamos projetos de jardinagem e manutenção em praças,
+                  parques, clubes, igrejas, escolas, órgãos públicos e áreas
+                  governamentais. Oferecemos implantação de gramados,
+                  revitalização, controle de pragas e
+                  conservação contínua.
                 </p>
               </div>
             </div>
@@ -168,6 +196,13 @@ Oferecemos soluções completas de jardinagem e paisagismo para áreas comuns, g
               <img
                 className="w-full h-full max-h-[600px] object-cover"
                 src={"images/about/enterprise.svg"}
+                alt="image of enterprise service"
+              />
+            </div>
+            <div className="">
+              <img
+                className="w-full h-full max-h-[600px] object-cover"
+                src={"images/about/parque.svg"}
                 alt="image of enterprise service"
               />
             </div>

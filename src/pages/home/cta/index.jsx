@@ -6,7 +6,7 @@ export function Cta() {
             <div className="2xl:max-w-[1440px] xl:max-w-[1280px] mx-auto px-4 flex md:flex-row flex-col md:text-start text-center justify-between items-center gap-8">
                 <h2 className="font-bold text-white lg:text-4xl text-4xl  ">Quer nos conhecer ? <br />
                     Agende uma visita hoje!</h2>
-                <MainButton textButton="Fazer um orçamento"  linkButton="https://wa.me/5521997155021" styleButton={"bg-green text-white border-[1px] border-white"} styleBTN={''} target="_blank"/>
+                <MainButton textButton="Fazer um orçamento"  linkButton="https://wa.me/5521997155021" styleButton={"bg-green hover:opacity-80 text-white border-[1px] border-white"} styleBTN={''} target="_blank"/>
             </div>
         </section>
     );

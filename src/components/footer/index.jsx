@@ -8,7 +8,7 @@ export function Footer(){
             <div className="flex lg:flex-row gap-16 flex-col justify-between items-center">
                 <FooterStructure.Links>
                     <FooterStructure.Link link={'#About'} textLink={'Sobre nós'} />
-                    <FooterStructure.Link link={'#Services'} textLink={'Serviços'} />
+                    <FooterStructure.Link link={'#WhoWeServe'} textLink={'Quem atendemos'} />
                     <FooterStructure.Link link={'#Faq'} textLink={'FAQ'} />
                 </FooterStructure.Links>
                 <FooterStructure.Logo image={'icons/Logo-light.svg'} LogoStile={''} linkLogo={'#Hero'}/>
