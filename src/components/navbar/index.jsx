@@ -49,7 +49,7 @@ export function Navbar(){
                     <MainButton 
                         target={'_blank'}
                         textButton={'Fazer um orçamento'}
-                        linkButton={'https://wa.me/5521997155021'}
+                        linkButton={'https://wa.me/5521920004819'}
                     />
                 </div>
                 <div className="flex lg:hidden gap-4">
@@ -70,7 +70,7 @@ export function Navbar(){
                                         styleBTN={'text-blue hover:text-white'}
                                         target={'_blank'}
                                         textButton={'Fazer um orçamento'}
-                                        linkButton={'https://wa.me/5521997155021'}
+                                        linkButton={'https://wa.me/5521920004819'}
                                 />
 
                             </div>
