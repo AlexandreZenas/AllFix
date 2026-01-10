@@ -18,7 +18,7 @@ export function About() {
                         <span className="">• Visita técnica gratuita</span>
                         <span className="">• Orçamento sem compromisso</span>
                     </div>
-                    <MainButton linkButton={'https://wa.me/5521997155021'} textButton={'Fazer um orçamento'} />
+                    <MainButton linkButton={'https://wa.me/5521920004819'} textButton={'Fazer um orçamento'} />
                 </div>
             </div>
         </section>
