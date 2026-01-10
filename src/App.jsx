@@ -4,7 +4,7 @@ import { Home } from './pages/home';
 
 function App() {
   return (
-    <Router basename="/AllFix/">      
+    <Router basename="/">      
       <Routes >
         <Route path="/" element={<Home />} /> 
       </Routes>
