@@ -1,0 +1,26 @@
+section.bg-hero{
+    background-image: url('/images/hero/bg-image-1.jpg');
+    animation: bgHero cubic-bezier(.25,1.35,1,1.06) infinite both;
+    animation-delay: 5s;
+    animation-duration: 21s;
+    background-position: center;
+    background-size: cover;
+}
+
+@keyframes bgHero {
+    0% {
+        background-image: url('/images/hero/bg-image-1.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+    33% {
+        background-image: url('/images/hero/bg-image-2.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+    66% {
+        background-image: url('/images/hero/bg-image-3.jpg');
+        background-position: center;
+        background-size: cover;
+    }   
+}

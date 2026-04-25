@@ -1,0 +1,36 @@
+@import "tailwindcss";
+html, body{
+    min-height: 100vh;
+}
+:root{
+    font-family: Inter, sans-serif;
+    background-color: white;
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: 'Inter';
+    src: local('Inter'), url(./assets/fonts/Inter/Inter.ttf) format('truetype'),
+    url(./assets/fonts/Inter/Inter-Italic.ttf) format('truetype'),
+    ;
+  }
+@theme{
+    --color-light-blue: #ADD8E6;
+    --color-blue: #1E3A8A; 
+    --color-light-gray: #E5E7EB; 
+    --color-gray: #7C7C7C; 
+    --color-dark-green: #19543A; 
+    --color-green: #4FA25C; 
+    --color-white: #FFFFFF; 
+    --color-black: #0C0C0C; 
+
+    --animate-bg-zoom: bgzoom 6s ease-in-out infinite;
+
+    @keyframes bgzoom {
+        0% {
+          background-size: 100% 100%;
+        }
+        100% {
+            background-size: 110% 110%;
+        }
+      }
+}
